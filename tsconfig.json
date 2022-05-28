@@ -1,0 +1,21 @@
+
+
+
+{
+  "compilerOptions": {
+                                   
+    "lib": ["DOM","DOM.Iterable","ESNext"],  // ESNext is required for async await                                    
+    "jsx": "react-jsx",   // react-jsx is required for JSX                           
+    "moduleResolution": "node", // node is required for async await
+    "resolveJsonModule": true,  // required for async await                      
+    "allowJs": true,  // allow js files to be compiled                                
+    "noEmit": true,  // don't emit any files                                 
+    "isolatedModules": true, // required for async await                         
+    "allowSyntheticDefaultImports": true, // required for async await            
+    "esModuleInterop": true,   // required for async await                          
+    "forceConsistentCasingInFileNames": true,   //  required for async await         
+    "strict": true, // strict mode
+    "skipLibCheck": true   // skip lib check                              
+  },
+  "include": ["src"]
+}
