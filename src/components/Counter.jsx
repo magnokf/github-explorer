@@ -14,8 +14,8 @@ const [counter, setCounter] = useState(0);
       <h1>{counter}</h1>
       <h2>Contador</h2>
       
-      <button onClick={onIncrement}>Incrementar</button>
-      <button onClick={onDecrement}>Decrementar</button>
+      <button onClick={onIncrement}>Incrementar +1</button>
+      <button onClick={onDecrement}>Decrementar -1</button>
     </div>
   )
 }
